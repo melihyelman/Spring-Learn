@@ -1,4 +1,4 @@
-package com.melihyelman.learning_spring_framework.game;
+package com.melihyelman.learning_spring_framework.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
