@@ -1,8 +1,8 @@
 package com.melihyelman.learning_spring_framework.game;
 
 public class GameRunner {
-    private  game;
-    public GameRunner(MarioGame marioGame) {
+    private GamingConsole game;
+    public GameRunner(PacmanGame marioGame) {
         this.game = marioGame;
     }
 

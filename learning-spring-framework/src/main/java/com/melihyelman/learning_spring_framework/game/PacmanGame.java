@@ -1,14 +1,14 @@
 package com.melihyelman.learning_spring_framework.game;
 
-public class MarioGame implements GamingConsole {
+public class PacmanGame implements GamingConsole {
     public void up() {
-        System.out.println("up");
+        System.out.println("Jump");
     }
     public void down() {
-        System.out.println("down");
+        System.out.println("slow");
     }
     public void left() {
-        System.out.println("left");
+        System.out.println("fly");
     }
     public void right() {
         System.out.println("right");
