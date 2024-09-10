@@ -20,8 +20,12 @@ public class CourseCommandLineRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         repository.save(new Course(1,"Learn Spring1","melihyelman"));
         repository.save(new Course(2,"Learn Java2","melihyelman"));
+        repository.save(new Course(2,"Learn Java2","steel"));
         repository.deleteById(1l);
         System.out.println(repository.findById(2l));
 
+        System.out.println(repository.findAll());
+        System.out.println(repository.count());
+        System.out.println(repository.findByAuthor("steel"));
     }
 }
