@@ -5,8 +5,8 @@
     <body>
     <div>
         Welcome to welcome page!
-        Name: ${name}
     </div>
+    <hr>
     <div><a href="list-todos">Manage</a> your todos </div>
     </body>
 </html>
