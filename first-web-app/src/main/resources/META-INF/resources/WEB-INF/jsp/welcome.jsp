@@ -2,11 +2,12 @@
 <head>
     <title>Login</title>
 </head>
-    <body>
-    <div>
+<body>
+<div class="container">
+    <h1>
         Welcome to welcome page!
-    </div>
-    <hr>
-    <div><a href="list-todos">Manage</a> your todos </div>
-    </body>
+    </h1>
+    <a href="list-todos">Manage</a> your todo
+</div>
+</body>
 </html>
