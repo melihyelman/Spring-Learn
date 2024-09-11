@@ -1,5 +1,6 @@
 package com.melihyelman.springboot.first_web_app.todo;
 
+import jakarta.validation.Valid;
 import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
 
@@ -37,5 +38,10 @@ public class TodoService {
     public Todo findById(int id) {
         Predicate<? super Todo> predicate = todo -> todo.getId() == id;
         return todos.stream().filter(predicate).findFirst().get();
+    }
+
+    public void updateTodo(@Valid Todo todo) {
+        deleteById(todo.getId());
+        todos.add(todo);
     }
 }
