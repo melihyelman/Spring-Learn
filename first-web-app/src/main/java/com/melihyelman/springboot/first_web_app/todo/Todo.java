@@ -23,6 +23,10 @@ public class Todo {
         return done;
     }
 
+    public Todo() {
+
+    }
+
     @Override
     public String toString() {
         return "Todo{" +
